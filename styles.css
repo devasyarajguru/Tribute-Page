@@ -123,10 +123,58 @@ main
   }
 }
 
-/* --------------------px < 576 -------------------------*/
+/* -------------------- px < 576px -------------------------*/
 
 /* Styles for mobiles */
-@media (max-width: 576px) {
+@media (min-width:349px) and (max-width: 576px) {
+
+  #title1 h1
+  {
+    font-size: 30px;
+  }
+
+  #para
+  {
+    margin-top: -5%;
+  }
+  #main
+  {
+    overflow-x: hidden;
+    max-width: 100%;
+    background-color: #e4e2e0;
+    margin-top:30px;
+    margin-bottom:3px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 10px;
+  }
+  img {
+    max-width: 90%;
+    max-height:20rem;
+  }
+
+  #img-div {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .myUl {
+    max-width: 100%;
+  }
+  .myUl li {
+    max-width: 80%;
+  }
+
+  #last-para
+  {
+    max-width: 70%;
+  }
+}
+
+/* --------------------px > 576 -------------------------*/
+
+/* Styles for mobiles */
+@media (min-width: 576px) {
 
   #title1 h1
   {
@@ -167,7 +215,7 @@ main
 
   #last-para
   {
-    max-width: 50%;
+    max-width: 70%;
   }
 }
 /* --------------------px > 1024 -------------------------*/
