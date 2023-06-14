@@ -132,7 +132,10 @@ main
   {
     font-size: 30px;
   }
-
+#heading
+{
+  font-size: 17px;
+}
   #para
   {
     margin-top: -5%;
