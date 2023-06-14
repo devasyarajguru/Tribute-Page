@@ -237,6 +237,11 @@ main
     margin-right:auto;
     border-radius: 10px;
   }
+
+  #para
+  {
+    margin-top: -2%;
+  }
   img {
     max-width: 70%;
   }
