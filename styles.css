@@ -224,7 +224,13 @@ main
 
   #last-para
   {
+    font-size: 16px;
     max-width: 70%;
+  }
+
+  #para-link
+  {
+    font-size: 16px;
   }
 }
 /* --------------------px > 1024 -------------------------*/
