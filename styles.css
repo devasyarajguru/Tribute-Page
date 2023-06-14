@@ -122,6 +122,54 @@ main
     padding: 20px;
   }
 }
+
+/* --------------------px < 576 -------------------------*/
+
+/* Styles for mobiles */
+@media (max-width: 576px) {
+
+  #title1 h1
+  {
+    font-size: 30px;
+  }
+
+  #para
+  {
+    margin-top: -5%;
+  }
+  #main
+  {
+    overflow-x: hidden;
+    max-width: 90%;
+    background-color: #e4e2e0;
+    margin-top:30px;
+    margin-bottom:3px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 10px;
+  }
+  img {
+    max-width: 90%;
+    max-height:20rem;
+  }
+
+  #img-div {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .myUl {
+    max-width: 100%;
+  }
+  .myUl li {
+    max-width: 85%;
+  }
+
+  #last-para
+  {
+    max-width: 80%;
+  }
+}
 /* --------------------px > 1024 -------------------------*/
 
 /* Styles for desktops */
@@ -176,7 +224,7 @@ main
 
   .myUl {
     max-width: 1000px;
-    font-size: 23px;
+    font-size: 18px;
   }
 
   #main
